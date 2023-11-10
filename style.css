@@ -123,12 +123,16 @@ nav {
     font-weight: bold;
 }
 
+#contact {
+
+    padding: 150px 0px;
+}
 
 footer {
-    padding-top: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 #links {
