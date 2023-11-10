@@ -1,0 +1,146 @@
+/* --- Reset --- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+html {
+    color-scheme: dark light;
+}
+
+body {
+    min-height: 100vh;
+}
+
+img, picture, svg, video {
+    display: block;
+    max-width: 100%;
+}
+/* --- Reset --- */
+
+/* --- Variables --- */
+:root {
+    --bg-img-layer: -10;
+    --nav-layer: 10;
+    
+}
+/* --- Variables --- */
+
+
+nav {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.toggle-container {
+    display: flex;
+    background-color: #e8e5e480;
+    justify-content: center;
+    padding: 2px;
+    border-radius: 30px;
+
+  }
+
+  .toggle-option {
+    flex: 1;
+    text-align: center;
+  }
+
+  input[type="radio"] {
+    display: none;
+  }
+
+  input[type="radio"]:checked + label {
+    background-color: #ffffff;
+    border-radius: 30px;
+  }
+
+  label {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+
+  h1 {
+    font-size: 100px;
+    padding: 100px 400px;
+ 
+  }
+
+  #pictures {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  #pictures img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    border-radius: 30px; 
+  }
+
+ h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+ }
+
+ #touch {
+    opacity: 60%;
+ }
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.marketing {
+    background-color: #e8e5e480;
+    padding: 5px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+#marketing {
+
+    padding: 5px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+footer {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#links {
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#copy {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
